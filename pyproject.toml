@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "player-rating"
+version = "0.2.0"
+description = "Leakage-safe pre-match forecasting of football player ratings, with a predictability ceiling and calibrated prediction intervals."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "scipy>=1.13",
+    "scikit-learn>=1.5",
+    "statsmodels>=0.14",
+    "lightgbm>=4.3",
+    "optuna>=4.0",
+    "torch>=2.4",
+    "matplotlib>=3.9",
+    "joblib>=1.4",
+    "pyarrow>=16",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6", "jupyter", "ipykernel", "nbconvert", "nbformat"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+extend-exclude = ["archive"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "NPY", "SIM"]
+
+[tool.ruff.lint.per-file-ignores]
+"notebooks/*" = ["E402", "E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["data: needs the raw CSV in data/raw/ (skipped when it is missing)"]

@@ -1,0 +1,8 @@
+added group,n_inputs,MAE,RMSE,R2,MAE change,R2 change
+static attributes,6,0.5255,0.6591,0.208,,
+recent form (shrunk),7,0.5134,0.6436,0.2448,-0.0122,0.0368
+career level (shrunk),9,0.5089,0.6373,0.2594,-0.0044,0.0146
+player match stats (v1),19,0.5093,0.6377,0.2586,0.0004,-0.0008
+team form,30,0.5098,0.6385,0.2567,0.0005,-0.0019
+opponent form,41,0.51,0.6388,0.256,0.0002,-0.0007
+tournament stage,42,0.5101,0.6391,0.2554,0.0001,-0.0007

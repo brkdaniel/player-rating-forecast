@@ -1,0 +1,5 @@
+position,n_rows,MAE,RMSE,R2
+Defender,1634,0.5092,0.6416,0.2533
+Forward,1092,0.5186,0.6508,0.2888
+Goalkeeper,374,0.4613,0.5763,0.3536
+Midfielder,1466,0.4986,0.6239,0.2995

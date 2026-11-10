@@ -1,0 +1,25 @@
+{
+  "selected_model": "LightGBM, v2 features",
+  "best_test_MAE_model": "LightGBM, v2 features",
+  "shrinkage_k": 7.893060859372463,
+  "conformal_half_widths": {
+    "80%": 0.8131008071191408,
+    "90%": 1.0494507247425746
+  },
+  "calibration_errors": 14040,
+  "test_rows_v1": 4543,
+  "test_rows_all": 4566,
+  "selected_on_rows_v1_dropped": {
+    "MAE": 0.5527171777478243,
+    "RMSE": 0.7129705143276635,
+    "R2": 0.4116637666279144
+  },
+  "rows_v1_dropped": 23,
+  "settings": {
+    "trials": 30,
+    "seeds": 5,
+    "n_boot": 2000,
+    "jobs": 4,
+    "threads": 4
+  }
+}

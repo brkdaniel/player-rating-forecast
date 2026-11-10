@@ -1,0 +1,23 @@
+{
+  "sha256": "4ed9cc4b0e05b38f839b8411c1926974fc7d2477ac30b1948f5c0ea5b0d32632",
+  "raw_rows": 54600,
+  "players": 1248,
+  "matches": 1050,
+  "teams": 48,
+  "first_date": "2026-06-11",
+  "last_date": "2026-07-31",
+  "rows_min_30_minutes": 25667,
+  "rows_with_v1_history": 24119,
+  "train_end": "2026-07-16",
+  "validation_end": "2026-07-23",
+  "rows_per_split": {
+    "train": 17481,
+    "test": 4566,
+    "validation": 3620
+  },
+  "v1_rows_per_split": {
+    "train": 15987,
+    "test": 4543,
+    "validation": 3589
+  }
+}

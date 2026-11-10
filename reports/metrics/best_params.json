@@ -1,0 +1,62 @@
+{
+  "Dummy (mean)": {},
+  "Ridge, v2 features": {
+    "alpha": 19.330122872862113
+  },
+  "Ridge, v1 features": {
+    "alpha": 1.0
+  },
+  "LightGBM, v2 features": {
+    "n_estimators": 250,
+    "learning_rate": 0.015174979914053371,
+    "num_leaves": 10,
+    "min_child_samples": 31,
+    "subsample": 0.9132689533138548,
+    "colsample_bytree": 0.6792067914216491,
+    "reg_lambda": 2.217157846850643
+  },
+  "MLP, v2 features": {
+    "hidden": [
+      45,
+      32
+    ],
+    "dropout": [
+      0.03962298078736065,
+      0.24278601354786278
+    ],
+    "l2": 0.004233641414468742,
+    "lr": 0.0013353772383236156,
+    "batch_size": 64
+  },
+  "MLP, v1 features": {},
+  "MLP + player embedding, static features": {
+    "hidden": [
+      26,
+      20
+    ],
+    "dropout": [
+      0.25812807289185824,
+      0.014581153486320707
+    ],
+    "l2": 0.0003953511202923565,
+    "lr": 0.00026465697315328256,
+    "batch_size": 256,
+    "embedding_l2": 0.009848472781587899,
+    "player_dim": 8
+  },
+  "MLP + player embedding, v2 features": {
+    "hidden": [
+      46,
+      10
+    ],
+    "dropout": [
+      0.24099049591434707,
+      0.09094038326064956
+    ],
+    "l2": 0.003165921148937163,
+    "lr": 0.0025487641241343445,
+    "batch_size": 256,
+    "embedding_l2": 0.011242343023825383,
+    "player_dim": 4
+  }
+}
